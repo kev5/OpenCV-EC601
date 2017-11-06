@@ -23,4 +23,16 @@ Pixel values in each channel range from 0-225.
 
 ## Exercise 4
 
+**1. Look at Threshold.cpp and implement the code in Python, and observe the results for dierent threshold values. Comment on the results.**
+
+The output shows the 'baboon.jpg' image with different thresholds applied to its grayscaled version. We can see that different thresholds either highlight or tone down certain features of the image. We also observe that Adaptive filtering has the closest resemblance to the original image.
+
+**2. What are the disadvantages of binary threshold?**
+
+Binary threshold gives maximum intensity to a pixel if its value is higher than the threshold value, and gives the minimum intensity to all other values. This method of giving only the extreme (maximum or minimum) values to pixels results in loss of details. 
+
+**3. When is Adaptive Threshold useful?**
+
+Where an image has different lighting conditions in different areas, we go for adaptive thresholding. In this, the algorithm calculates the threshold for small regions of the image. So, we get different thresholds for different regions of the same image and it gives us better results for images with varying illumination.
+
 
