@@ -5,7 +5,7 @@
 
 **1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?**
 
-The pixel values of a cvMat file can be accessed using _cvMatName.at(x,y)_ where we can access a pixel in the matrix structure where (x,y) is the position and (0,0) position is at the top left corner of the matrix.
+The pixel values of a cvMat file can be accessed using _cvMatName.at(x,y)_ where we can access a pixel in the matrix structure where (x,y) is the position of the pixel and (0,0) position is at the top left corner of the matrix.
 
 ## Exercise 2
 
