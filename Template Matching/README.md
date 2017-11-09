@@ -2,26 +2,32 @@ There is an easier and faster way for template matching which can be achieved by
 6 methods namely - 
 
 **1. method=CV_TM_SQDIFF**
+
 R(x,y)= \sum _{x',y'} (T(x',y')-I(x+x',y+y'))^2
 
 **2. method=CV_TM_SQDIFF_NORMED**
+
 R(x,y)= \frac{\sum_{x',y'} (T(x',y')-I(x+x',y+y'))^2}{\sqrt{\sum_{x',y'}T(x',y')^2 \cdot \sum_{x',y'} I(x+x',y+y')^2}}
 
 **3. method=CV_TM_CCORR**
+
 R(x,y)= \sum _{x',y'} (T(x',y')  \cdot I(x+x',y+y'))
 
 **4. method=CV_TM_CCORR_NORMED**
+
 R(x,y)= \frac{\sum_{x',y'} (T(x',y') \cdot I(x+x',y+y'))}{\sqrt{\sum_{x',y'}T(x',y')^2 \cdot \sum_{x',y'} I(x+x',y+y')^2}}
 
 **5. method=CV_TM_CCOEFF**
+
 R(x,y)= \sum _{x',y'} (T'(x',y')  \cdot I(x+x',y+y'))
 
-where
+where,
 
 \begin{array}{l} T'(x',y')=T(x',y') - 1/(w  \cdot h)  \cdot \sum _{x'',y''} T(x'',y'') \\ I'(x+x',y+y')=I(x+x',y+y') - 
 1/(w  \cdot h)  \cdot \sum _{x'',y''} I(x+x'',y+y'') \end{array}
 
 **6. method=CV_TM_CCOEFF_NORMED**
+
 R(x,y)= \frac{ \sum_{x',y'} (T'(x',y') \cdot I'(x+x',y+y')) }{ \sqrt{\sum_{x',y'}T'(x',y')^2 \cdot \sum_{x',y'} I'(x+x',y+y')^2} }
 
 The reason that the OpenCV methods are so fast is because -
