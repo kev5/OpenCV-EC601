@@ -7,7 +7,7 @@ R(x,y)= ![](https://latex.codecogs.com/gif.latex?%5Csum%20_%7Bx%27%2Cy%27%7D%20%
 
 **2. method=CV_TM_SQDIFF_NORMED**
 
-R(x,y)= \frac{\sum_{x',y'} (T(x',y')-I(x+x',y+y'))^2}{\sqrt{\sum_{x',y'}T(x',y')^2 \cdot \sum_{x',y'} I(x+x',y+y')^2}}
+![](https://latex.codecogs.com/gif.latex?R%28x%2Cy%29%3D%20%5Cfrac%7B%5Csum_%7Bx%27%2Cy%27%7D%20%28T%28x%27%2Cy%27%29-I%28x&plus;x%27%2Cy&plus;y%27%29%29%5E2%7D%7B%5Csqrt%7B%5Csum_%7Bx%27%2Cy%27%7DT%28x%27%2Cy%27%29%5E2%20%5Ccdot%20%5Csum_%7Bx%27%2Cy%27%7D%20I%28x&plus;x%27%2Cy&plus;y%27%29%5E2%7D%7D)
 
 **3. method=CV_TM_CCORR**
 
