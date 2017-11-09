@@ -3,7 +3,7 @@ There is an easier and faster way for template matching which can be achieved by
 
 **1. method=CV_TM_SQDIFF**
 
-R(x,y)= ![](https://latex.codecogs.com/gif.latex?%5Csum%20_%7Bx%27%2Cy%27%7D%20%28T%28x%27%2Cy%27%29-I%28x&plus;x%27%2Cy&plus;y%27%29%29%5E2)
+![](https://docs.opencv.org/2.4/_images/math/f096a706cb9499736423f10d901c7fe13a1e6926.png)
 
 **2. method=CV_TM_SQDIFF_NORMED**
 
