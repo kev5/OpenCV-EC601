@@ -3,7 +3,7 @@ There is an easier and faster way for template matching which can be achieved by
 
 **1. method=CV_TM_SQDIFF**
 
-R(x,y)= \sum _{x',y'} (T(x',y')-I(x+x',y+y'))^2
+R(x,y)= ![](https://latex.codecogs.com/gif.latex?%5Csum%20_%7Bx%27%2Cy%27%7D%20%28T%28x%27%2Cy%27%29-I%28x&plus;x%27%2Cy&plus;y%27%29%29%5E2)
 
 **2. method=CV_TM_SQDIFF_NORMED**
 
