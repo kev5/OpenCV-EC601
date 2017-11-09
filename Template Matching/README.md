@@ -7,7 +7,7 @@ There is an easier and faster way for template matching which can be achieved by
 
 **2. method=CV_TM_SQDIFF_NORMED**
 
-                ![](https://docs.opencv.org/2.4/_images/math/6d6a720237b3a4c1365c8e86a9cfcf0895d5e265.png)
+![](https://docs.opencv.org/2.4/_images/math/6d6a720237b3a4c1365c8e86a9cfcf0895d5e265.png)
 
 **3. method=CV_TM_CCORR**
 
