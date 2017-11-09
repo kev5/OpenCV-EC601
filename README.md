@@ -1,6 +1,7 @@
 # OpenCV-EC601
   - OpenCV Projects and Exercises
 
+Note: All the program codes and results are in the respective folders in the repository. 
 ## Exercise 1
 
 **1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?**
