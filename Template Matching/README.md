@@ -20,7 +20,9 @@ There is an easier and faster way for template matching which can be achieved by
 **5. method=CV_TM_CCOEFF**
 
    ![](https://docs.opencv.org/2.4/_images/math/6d8865ea008412bdc246ace6f5a3fe0991502881.png)
+   
 where,
+
    ![](https://docs.opencv.org/2.4/_images/math/ffb6954b6020b02e13b73c79bd852c1627cfb79c.png)
 
 **6. method=CV_TM_CCOEFF_NORMED**
