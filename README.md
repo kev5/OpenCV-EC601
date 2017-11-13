@@ -48,6 +48,6 @@ Note: All the program codes and results are in the respective folders in the rep
 
 ## Exercise 5
 
-**2. Object detection vs. Tracking: After looking at OpenCV face detection, you know that it works in real time and you can easily detect the face in every frame. So, why do you need tracking in the the first place?
+**2. Object detection vs. Tracking: After looking at OpenCV face detection, you know that it works in real time and you can easily detect the face in every frame. So, why do you need tracking in the the first place?**
 
 - Object *detection* in videos involves verifying the presence of an object in image sequences and possibly locating it precisely for recognition. Object *tracking* is to monitor an object’s spatial and temporal changes during a video sequence, including its presence, position, size, shape, etc. These two processes are closely related because tracking usually starts with detecting objects, while detecting an object repeatedly in subsequent image sequence is often necessary to help and verify tracking.
