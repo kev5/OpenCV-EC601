@@ -26,6 +26,8 @@ Note: All the program codes and results are in the respective folders in the rep
 
 **1. Look at the code in Noise.cpp and implement the code in Python. Also, print the results for different noise values in the Gaussian case, mean =0, 5, 10, 20 and sigma = 0, 20, 50, 100 and for the salt-and-pepper case, pa = 0.01, 0.03, 0.05, 0.4 and pb = 0.01, 0.03, 0.05, 0.4.**
 
+- Please check the respective Exercise 3 folder in the repository for code and results.
+
 **2. Change the kernel sizes for all the filters with all different values for noises and print the results for 3x3, 5x5 and 7x7 kernels. Comment on the results. Which filter seems to work "better" for images with salt-and-pepper noise and gaussian noise?**
 
 - Increasing the kernel size increased the blurriness of the images. Median filter works better for Salt and Pepper Noise while Gaussian filter works better for Gaussian Noise.
