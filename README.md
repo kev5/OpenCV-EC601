@@ -1,4 +1,4 @@
-# OpenCV-EC601
+# OpenCV Explained
   - OpenCV Projects and Exercises
 
 Note: All the program codes and results are in the respective folders in the repository. 
